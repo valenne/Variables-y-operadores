@@ -1,0 +1,48 @@
+/* General */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.6;
+  font-family: sans-serif;
+}
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+  border: 1px solid #000;
+  text-align: center;
+  padding: 50px 50px;
+  margin-top: 50px;
+}
+
+/* styles */
+.btn__preguntas {
+  margin-bottom: 30px;
+}
+
+.oper__matematicas h2,
+.temperaturas h2,
+.dias h2,
+.numeros h2 {
+  text-transform: uppercase;
+  font-size: 32px;
+}
+
+.valores {
+  margin: 30px 30px;
+  color: orangered;
+  font-weight: 500;
+  font-size: 18px;
+}
+.valores--azul {
+  color: navy;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btn {
+  padding: 12px 24px;
+}

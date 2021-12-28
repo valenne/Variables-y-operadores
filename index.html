@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Operaciones Matematicas</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="btn__preguntas">
+        <button class="btn" id="opeMat">Pregunta 1</button>
+        <button class="btn" id="opeTemp">Pregunta 2</button>
+        <button class="btn" id="opeDias">Pregunta 3</button>
+        <button class="btn" id="opeNum">Pregunta 4</button>
+      </div>
+      <!-- pregunta 1: operaciones matematicas -->
+      <div class="oper__matematicas pregunta">
+        <h2>1. Operaciones matematicas</h2>
+        <div class="valores valores--azul">
+          <span id="num1"></span>
+          <span id="num2"></span>
+        </div>
+        <button class="btn" id="sm">suma</button>
+        <button class="btn" id="rt">resta</button>
+        <button class="btn" id="mt">multiplicacion</button>
+        <button class="btn" id="dv">division</button>
+        <button class="btn" id="md">modulo</button>
+        <br />
+        <div class="valores">
+          <span id="res"></span>
+        </div>
+      </div>
+      <!-- pregunta 2: temperaturas -->
+      <div class="temperaturas pregunta">
+        <h2>2. Temperatura en °Kelvin y °Fahrenheit</h2>
+
+        <div class="valores">
+          <span id="temp"></span>
+        </div>
+        <button class="btn" id="grados_kelv">°Kelvin</button>
+        <button class="btn" id="grados_faren">°Fahrenheit</button>
+        <br />
+        <div class="valores valores--azul">
+          <span id="res_2"></span>
+        </div>
+      </div>
+      <!-- pregunta 3: dias -->
+      <div class="dias pregunta">
+        <h2>3. Equivalente segun dias</h2>
+        <div class="valores valores--azul">
+          <span id="dias"></span>
+        </div>
+        <button class="btn" id="btn_dias">Cant. años, meses y dias</button>
+        <div class="valores">
+          <span id="res_3"></span>
+        </div>
+      </div>
+
+      <!-- pregunta 4: cinco numeros -->
+      <div class="numeros pregunta">
+        <h2>4. Solicita 5 numeros al usuario</h2>
+        <div class="valores valores--azul">
+          <span id="numbers"></span>
+        </div>
+        <button class="btn" id="suma_total">Suma de los numeros</button>
+        <button class="btn" id="promedio">Promedio de los numeros</button>
+        <div class="valores">
+          <span id="res_4"></span>
+        </div>
+      </div>
+    </div>
+    <!-- Script interno -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
